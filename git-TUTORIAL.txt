@@ -1,0 +1,19 @@
+Upload new project to git:
+$ git add .
+$ git commit -m "description"
+$ git remote set-url origin <url>
+$ git push --set-upstream origin master
+
+
+Download new project from git
+$ git clone <url>
+
+Download update from git
+$ git pull
+
+Upload update to git 
+$ git status
+$ git add .
+$ git commit -m "description"
+$ git remote set-url origin <url>
+$ git push --set-upstream origin master
