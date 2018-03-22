@@ -1,4 +1,5 @@
 Upload new project to git:
+$git init
 $ git add .
 $ git commit -m "description"
 $ git remote set-url origin <url>
@@ -15,5 +16,8 @@ Upload update to git
 $ git status
 $ git add .
 $ git commit -m "description"
-$ git remote set-url origin <url>
-$ git push --set-upstream origin master
+$ git remote set-url origin <url> 
+$ git push --set-upstream origin master 
+or
+$ git remote add origin <url>
+$ git push origin master
